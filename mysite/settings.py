@@ -50,10 +50,12 @@ INSTALLED_APPS = [
 
 CART_SESSION_ID = 'cart'
 
-EMAIL_HOST = 'smtp.mailtrap.io'
-EMAIL_HOST_USER = 'e45168ecf388dd'
-EMAIL_HOST_PASSWORD = '44e440b5815e86'
-EMAIL_PORT = '2525'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'djangopython18@gmail.com'
+EMAIL_HOST_PASSWORD = 'Django123'
+EMAIL_PORT = '587'
+EMAIL_USE_TLS = True
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
